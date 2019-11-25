@@ -1,0 +1,133 @@
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ touch index.html
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ touch app.js
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git init
+Initialized empty Git repository in C:/Users/fchiwesh/Desktop/MyApp/.git/
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git cnfig --global user.name 'Fungirayiini Mushaninga'
+git: 'cnfig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git config --global user.name 'Fungirayiini Mushaninga'
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git config --global user.email 'fungimush1999@gmail.com'
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git add index.html
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git add *.html
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git add *.html
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git add .
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+
+fchiwesh@courtsy-msa-lp MINGW64 ~/Desktop/MyApp (master)
+$
